@@ -8,3 +8,4 @@ knightMoves([3, 3], [4, 3]);
 //   [4,3]
 
 knightMoves([0, 0], [2, 7]);
+knightMoves([0, 1], [2, 3]);

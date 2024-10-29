@@ -82,7 +82,7 @@ function knightMoves(start, end) {
 
     let nextMoveQueue = [{ position: start, path: [] }];
 
-    while (true) {
+    while (nextMoveQueue.length > 0) {
         if (
             nextMoveQueue[0].position[0] === end[0] &&
             nextMoveQueue[0].position[1] === end[1]
